@@ -33,6 +33,10 @@
         <activity
             android:name=".SplitPersonal">
         </activity>
+
+        <activity
+            android:name=".Remit">
+        </activity>
     </application>
 
 </manifest>

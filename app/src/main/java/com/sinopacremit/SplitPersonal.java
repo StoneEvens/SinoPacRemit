@@ -18,7 +18,7 @@ public class SplitPersonal extends AppCompatActivity {
 
     RecyclerView selectionRecyclerView;
 
-    CardView backCardView, nextCardView;
+    CardView nextCardView;
 
     ArrayList<String> items;
 
@@ -30,7 +30,6 @@ public class SplitPersonal extends AppCompatActivity {
         selectAll = findViewById(R.id.SelectAll);
         storeName = findViewById(R.id.StoreName_Selection);
         selectionRecyclerView = findViewById(R.id.SelectionRecyclerView);
-        backCardView = findViewById(R.id.BackCardView);
         nextCardView = findViewById(R.id.NextCardView);
 
         items = new ArrayList<String>();

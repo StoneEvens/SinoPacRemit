@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.sinopacremit"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.sinopacremit"

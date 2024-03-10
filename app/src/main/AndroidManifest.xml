@@ -29,6 +29,10 @@
         <activity
             android:name=".SplitOverview">
         </activity>
+
+        <activity
+            android:name=".SplitPersonal">
+        </activity>
     </application>
 
 </manifest>

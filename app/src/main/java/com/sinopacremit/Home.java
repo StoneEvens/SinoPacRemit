@@ -1,10 +1,8 @@
 package com.sinopacremit;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -39,7 +37,7 @@ public class Home extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
 
         groupRecyclerView.setLayoutManager(layoutManager);
-        groupRecyclerView.setAdapter(new GroupAdapter(getApplicationContext(), groups));
+        groupRecyclerView.setAdapter(new HomeGroupAdapter(getApplicationContext(), groups));
 
 
     }

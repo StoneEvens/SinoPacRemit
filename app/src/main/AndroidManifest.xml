@@ -25,6 +25,10 @@
         <activity
             android:name=".Home">
         </activity>
+
+        <activity
+            android:name=".SplitOverview">
+        </activity>
     </application>
 
 </manifest>

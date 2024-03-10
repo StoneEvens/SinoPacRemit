@@ -10,24 +10,24 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class GroupAdapter extends RecyclerView.Adapter<GroupViewHolder> {
+public class HomeGroupAdapter extends RecyclerView.Adapter<HomeGroupViewHolder> {
     private Context context;
     private ArrayList<String> groups;
 
-    public GroupAdapter(Context context, ArrayList<String> groups) {
+    public HomeGroupAdapter(Context context, ArrayList<String> groups) {
         this.context = context;
         this.groups = groups;
     }
 
     @NonNull
     @Override
-    public GroupViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public HomeGroupViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View groupView = LayoutInflater.from(parent.getContext()).inflate(R.layout.home_group_button, parent, false);
-        return new GroupViewHolder(groupView);
+        return new HomeGroupViewHolder(groupView);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GroupViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull HomeGroupViewHolder holder, int position) {
         holder.getName().setText(groups.get(position));
     }
 

@@ -37,6 +37,10 @@
         <activity
             android:name=".Remit">
         </activity>
+
+        <activity
+            android:name=".Carrier">
+        </activity>
     </application>
 
 </manifest>

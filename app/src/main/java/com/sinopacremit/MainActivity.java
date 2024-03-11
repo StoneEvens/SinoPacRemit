@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent myIntent = new Intent(MainActivity.this, Carrier.class);
+        Intent myIntent = new Intent(MainActivity.this, Finance.class);
         startActivity(myIntent);
     }
 }

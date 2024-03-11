@@ -41,6 +41,10 @@
         <activity
             android:name=".Carrier">
         </activity>
+
+        <activity
+            android:name=".Finance">
+        </activity>
     </application>
 
 </manifest>

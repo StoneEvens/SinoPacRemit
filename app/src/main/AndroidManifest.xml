@@ -28,23 +28,28 @@
         </activity>
 
         <activity
-            android:name=".SplitOverview">
+            android:name=".SplitOverview"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
 
         <activity
-            android:name=".SplitPersonal">
+            android:name=".SplitPersonal"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
 
         <activity
-            android:name=".Remit">
+            android:name=".Remit"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
 
         <activity
-            android:name=".Carrier">
+            android:name=".Carrier"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
 
         <activity
-            android:name=".Finance">
+            android:name=".Finance"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
     </application>
 

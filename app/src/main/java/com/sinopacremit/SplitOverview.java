@@ -30,8 +30,10 @@ public class SplitOverview extends AppCompatActivity {
         advanceSplit = findViewById(R.id.AdvanceSplitCardView);
 
         items = new ArrayList<String[]>();
-        items.add(new String[]{"Test1", "100"});
-        items.add(new String[]{"Test2", "150"});
+        items.add(new String[]{"品項一", "$100"});
+        items.add(new String[]{"品項二", "$150"});
+        items.add(new String[]{"品項三", "$387"});
+        items.add(new String[]{"品項四", "$208"});
 
         itemRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         itemRecyclerView.setAdapter(new SplitItemAdapter(getApplicationContext(), items));

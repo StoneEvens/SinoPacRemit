@@ -33,8 +33,10 @@ public class SplitPersonal extends AppCompatActivity {
         nextCardView = findViewById(R.id.NextCardView);
 
         items = new ArrayList<String>();
-        items.add("Item1");
-        items.add("Item2");
+        items.add("品項1");
+        items.add("品項2");
+        items.add("品項3");
+        items.add("品項4");
 
         selectionRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         selectionRecyclerView.setAdapter(new SplitSelectionAdapter(getApplicationContext(), items));

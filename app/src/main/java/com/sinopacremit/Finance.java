@@ -35,11 +35,15 @@ public class Finance extends AppCompatActivity {
         pieChart = findViewById(R.id.pieChart);
         pieChart.addPieSlice(new PieModel("食物", 1300, Color.BLUE));
         pieChart.addPieSlice(new PieModel("衣服", 1400, Color.GREEN));
+        pieChart.addPieSlice(new PieModel("飲料", 800, Color.YELLOW));
+        pieChart.addPieSlice(new PieModel("車費", 1200, Color.CYAN));
 
         categoryRecyclerView = findViewById(R.id.ColorRecyclerView);
         categories = new ArrayList<String[]>();
         categories.add(new String[]{"-16776961", "食物"});
         categories.add(new String[]{"-16711936", "衣服"});
+        categories.add(new String[]{"-256", "飲料"});
+        categories.add(new String[]{"-16711681", "車費"});
         categoryRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         categoryRecyclerView.setAdapter(new FinanceCategoryAdapter(getApplicationContext(), categories));
 

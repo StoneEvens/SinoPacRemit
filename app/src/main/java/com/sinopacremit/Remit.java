@@ -25,8 +25,8 @@ public class Remit extends AppCompatActivity {
 
         ArrayList<String> accounts = new ArrayList<String>();
         ArrayList<String> banks = new ArrayList<String>();
-        accounts.add("111306075");
-        accounts.add("111306111");
+        accounts.add("永豐銀行 XXX-XXXXXXXXXXXXXXXXX");
+        accounts.add("叉叉銀行 XXX-XXXXXXXXXXXXXXXXX");
 
 
         accountSpinner = findViewById(R.id.AccountSpinner);
@@ -40,11 +40,13 @@ public class Remit extends AppCompatActivity {
 
         ArrayList<String[][]> stores = new ArrayList<String[][]>();
 
-        String[][] temp1 = {{"Store1"}, {"Item1", "Item2", "Item3"}};
-        String[][] temp2 = {{"Store2"}, {"Item1", "Item2", "Item3"}};
+        String[][] temp1 = {{"店家1"}, {"品項1", "品項2", "品項3"}};
+        String[][] temp2 = {{"店家2"}, {"品項1", "品項2", "品項3", "品項4"}};
+        String[][] temp3 = {{"店家3"}, {"品項1", "品項2"}};
 
         stores.add(temp1);
         stores.add(temp2);
+        stores.add(temp3);
 
         RemitStoreAdapter storeAdapter = new RemitStoreAdapter(this, stores);
         storeListView.setAdapter(storeAdapter);

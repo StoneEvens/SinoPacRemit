@@ -32,7 +32,7 @@ public class RemitStoreAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return storeList.get(groupPosition).length;
+        return storeList.get(groupPosition)[1].length;
     }
 
     @Override

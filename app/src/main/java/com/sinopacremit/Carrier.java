@@ -31,8 +31,8 @@ public class Carrier extends AppCompatActivity {
         expenseRecyclerView = findViewById(R.id.ExpenseRecyclerView);
 
         expenses = new ArrayList<String[]>();
-        expenses.add(new String[]{"3-10-24", "Store1", "$100"});
-        expenses.add(new String[]{"3-11-24", "Store2", "$500"});
+        expenses.add(new String[]{"3-10-24", "店家1", "$100"});
+        expenses.add(new String[]{"3-11-24", "店家2", "$500"});
 
         expenseRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         expenseRecyclerView.setAdapter(new CarrierExpenseAdapter(getApplicationContext(), expenses));

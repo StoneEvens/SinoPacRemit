@@ -31,8 +31,10 @@ public class Home extends AppCompatActivity {
         financeCardView = findViewById(R.id.FinanceCardView);
 
         groups = new ArrayList<String>();
-        groups.add("Test1");
-        groups.add("Test2");
+        groups.add("永豐金商競");
+        groups.add("小豐子");
+        groups.add("豐聚匯");
+        groups.add("大玩特玩");
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
 
